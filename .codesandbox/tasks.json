@@ -10,8 +10,8 @@
       "command": "npm i redux"
     },
     {
-      "command": "npm i react-redux",
-      "name": "npm i react-redux"
+      "name": "npm i react-redux",
+      "command": "npm i react-redux"
     }
   ],
 
