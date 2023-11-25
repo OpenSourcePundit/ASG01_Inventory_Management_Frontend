@@ -1,11 +1,21 @@
-import "./styles.css";
+// import "./styles.css";
+import {Routes,Route} from 'react-router-dom'
+
+
+import ReportsPage from "./pages/ReportsPage";
+import SalesPage from "./pages/SalesPage";
+import InventoryPage from "./pages/InventoryPage";
 import {InventoryForm} from './components/inventoryForm'
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello shashank</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <InventoryForm/>
+      <Routes>
+        <Route path='/' element={<InventoryPage/>}/>
+        <Route path='/reports' element={<ReportsPage/>}/>
+        <Route path='/sales' element={<SalesPage/>}/>
+      </Routes>
+      
+     
     </div>
   );
 }

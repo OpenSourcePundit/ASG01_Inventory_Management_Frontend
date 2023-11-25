@@ -16,6 +16,18 @@
     {
       "name": "npm i react-redux",
       "command": "npm install redux-thunk"
+    },
+    {
+      "name": "y",
+      "command": "yarn build"
+    },
+    {
+      "name": "npm i react-rouet-dom",
+      "command": "npm i react-router-dom"
+    },
+    {
+      "command": "npm i",
+      "name": "n"
     }
   ],
 

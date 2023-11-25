@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {React,useState} from 'react'
 import {useSelector} from 'react-redux'
 export const InventoryForm = () =>{
     const [name,setName] = useState('')
@@ -28,7 +28,7 @@ export const InventoryForm = () =>{
             </div>
             <div className="details_section">
                 <h2>Inventory Detail:</h2>
-                {inventory.length===0?<p>No Products in inventory</p>:
+                {inventory?.length===0?<p>No Products in inventory</p>:
                 <table>
                 <tr>
                     <th>Name</th>

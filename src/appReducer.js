@@ -1,7 +1,9 @@
-const defaultState = {inventory:[],saleTransactions:[]}
 
-export const appReducer = (state = defaultState,action) =>{
+const initialState = {inventory:[],saleTransactions:[],loading:false,error:null}
+
+export const appReducer = (state = initialState,action) =>{
     switch(action.type){
+        
 
 
     }
