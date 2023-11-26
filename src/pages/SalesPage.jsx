@@ -1,8 +1,5 @@
+const SalesPage = () => {
+  return <div>Sales</div>;
+};
 
-const SalesPage =( ) =>{
-    return(
-        <div>Sales</div>
-    )
-}
-
-export default SalesPage
+export default SalesPage;

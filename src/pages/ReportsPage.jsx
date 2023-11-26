@@ -1,8 +1,5 @@
+const ReportsPage = () => {
+  return <div>Reports</div>;
+};
 
-const ReportsPage =( ) =>{
-    return(
-        <div>Reports</div>
-    )
-}
-
-export default ReportsPage
+export default ReportsPage;
