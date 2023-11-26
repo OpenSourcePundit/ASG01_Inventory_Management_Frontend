@@ -6,10 +6,6 @@
       "command": "yarn install"
     },
     {
-      "name": "n",
-      "command": "npm i redux"
-    },
-    {
       "name": "npm i react-redux",
       "command": "npm i react-redux"
     },
@@ -26,7 +22,11 @@
       "command": "npm i react-router-dom"
     },
     {
-      "command": "npm i",
+      "name": "n",
+      "command": "npm i"
+    },
+    {
+      "command": "npm i redux",
       "name": "n"
     }
   ],
