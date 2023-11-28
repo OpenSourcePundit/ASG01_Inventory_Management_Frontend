@@ -1,0 +1,13 @@
+.nav-bar{
+    background-color: aquamarine;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-heading{
+    cursor: pointer;
+    background-color: aqua;
+    padding:1rem ;
+    border-radius: 5rem;
+
+}
