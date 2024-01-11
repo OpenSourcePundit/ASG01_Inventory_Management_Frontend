@@ -4,7 +4,7 @@ const Loader = () => {
   return (
     <div>
       <h1>Loading...</h1>
-      <p>First Load might take 1-2 mins</p>
+      <h3>First Load might take 1-2 mins</h3>
     </div>
   );
 };
