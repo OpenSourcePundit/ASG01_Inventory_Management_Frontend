@@ -6,16 +6,24 @@
       "command": "yarn install"
     },
     {
+      "name": " npm i thunk axios redux react-icons react-thunk",
+      "command": " npm i thunk axios redux react-icons react-thunk --force"
+    },
+    {
       "name": "n",
-      "command": "npm i redux"
+      "command": "npm i redux --force"
     },
     {
       "name": "npm i react-redux",
-      "command": "npm i react-redux"
+      "command": "npm i react-redux --force"
     },
     {
       "name": "npm i react-redux",
-      "command": "npm install redux-thunk"
+      "command": "npm install redux-thunk --force"
+    },
+    {
+      "name": "npm i react-router react-router-dom react-scripts react-spinner react-spinners ",
+      "command": "npm i react-router react-router-dom react-scripts react-spinner react-spinners  --force"
     }
   ],
 

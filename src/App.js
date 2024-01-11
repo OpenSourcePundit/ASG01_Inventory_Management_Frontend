@@ -1,11 +1,22 @@
+import React from "react";
 import "./styles.css";
-import {InventoryForm} from './components/inventoryForm'
-export default function App() {
+import { Route, Routes } from "react-router-dom";
+import Item from "./pages/Item";
+import Sales from "./pages/Sales";
+import Dashboard from "./pages/Dashboard";
+import Header from "./components/header/Header";
+
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello shashank</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <InventoryForm/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Item />} />
+        <Route path="/sales" element={<Sales />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </div>
   );
-}
+};
+
+export default App;

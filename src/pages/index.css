@@ -1,0 +1,17 @@
+.addItem {
+  width: 150px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-family: poppins;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Item {
+  background-color: whitesmoke;
+  position: relative;
+}

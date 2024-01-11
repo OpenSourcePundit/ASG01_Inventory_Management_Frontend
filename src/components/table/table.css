@@ -1,0 +1,23 @@
+.table {
+  width: fit-content;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.table thead tr th {
+  width: 8rem;
+  height: 3rem;
+  border: 1px solid red;
+  margin: 0 5px;
+}
+
+.table tbody tr td {
+  width: 8rem;
+  height: 3rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-family: poppins;
+}
